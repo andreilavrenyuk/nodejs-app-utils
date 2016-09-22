@@ -1,0 +1,31 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --timeout 2000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/arturkiulian/utils.git"
+  },
+  "keywords": [
+    "utils",
+    "debug",
+    "error",
+    "functions"
+  ],
+  "author": "Andrei Lavrenyuk",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/arturkiulian/utils#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "debug": "^2.2.0",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-import": "^1.15.0",
+    "mocha": "^3.0.2"
+  }
+}
