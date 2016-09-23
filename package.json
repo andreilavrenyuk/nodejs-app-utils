@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/workerco/utils.git"
+    "url": "git+https://bitbucket.org/workerco/app-utils.git"
   },
   "keywords": [
     "utils",
@@ -18,7 +18,7 @@
   ],
   "author": "Andrei Lavrenyuk",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/arturkiulian/utils#readme",
+  "homepage": "https://bitbucket.org/workerco/app-utils#readme",
   "dependencies": {
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
