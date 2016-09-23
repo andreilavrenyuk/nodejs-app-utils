@@ -1,6 +1,6 @@
 {
   "name": "app-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,11 +21,12 @@
   "homepage": "https://bitbucket.org/workerco/app-utils#readme",
   "dependencies": {
     "chai": "^3.5.0",
-    "chai-http": "^3.0.0",
+    "config": "^1.21.0",
     "debug": "^2.2.0",
     "eslint": "^3.5.0",
     "eslint-config-airbnb": "^11.1.0",
     "eslint-plugin-import": "^1.15.0",
+    "jsonwebtoken": "^7.1.9",
     "mocha": "^3.0.2"
   }
 }
