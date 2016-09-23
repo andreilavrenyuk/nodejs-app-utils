@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --timeout 2000"
+    "test": "./node_modules/.bin/mocha --timeout 2000",
+    "lint": "./node_modules/.bin/eslint .",
+    "precommit": "npm run lint",
+    "prepush": "npm test"
   },
   "repository": {
     "type": "git",
@@ -26,6 +29,7 @@
     "eslint": "^3.5.0",
     "eslint-config-airbnb": "^11.1.0",
     "eslint-plugin-import": "^1.15.0",
+    "husky": "^0.11.8",
     "jsonwebtoken": "^7.1.9",
     "mocha": "^3.0.2"
   }

@@ -13,5 +13,4 @@ describe('checking token:', () => {
       })
       .catch(done);
   });
-
 });
