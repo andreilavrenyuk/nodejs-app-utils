@@ -6,7 +6,7 @@ describe('checking token:', () => {
   it('Create and decode:', (done) => {
     const id = '1234567890';
     const token = appToken.create(id);
-    appToken.decodeToken(token)
+    appToken.decode(token)
       .then((obj) => {
         chai.expect(obj.iss).to.equal(id);
         done();
