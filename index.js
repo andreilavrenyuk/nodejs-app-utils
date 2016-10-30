@@ -1,12 +1,14 @@
 
 const Debug = require('./lib/debug');
 const AppError = require('./lib/error');
-const isBase64 = require('./lib/isBase64');
+const utility = require('./lib/utility');
 const token = require('./lib/token');
+const prettyError = require('./lib/pretty-error');
 
 module.exports = {
   Debug,
   AppError,
-  isBase64,
-  token
+  utility,
+  token,
+  prettyError
 };
