@@ -6,6 +6,8 @@
 *.sublime-workspace
 *.sublime-project
 
+/.idea
+
 # Optional npm cache directory
 .npm
 
